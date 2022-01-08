@@ -15,7 +15,10 @@ I also wrote a script that takes in raw input to create an
 interactive experience in the terminal to present these statistics.
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
