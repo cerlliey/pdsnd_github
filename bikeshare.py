@@ -186,6 +186,7 @@ def user_stats(df):
     print('-'*40)
 
 def request_five(df):
+    #this line of code is supposed to return 5 rows of the data frame 
     start_loc = 0
     end_loc = 5
     while input('would you like to see five rows of data?, type yes or no').lower().strip() == 'yes':
