@@ -1,6 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
+#declaring variables to handle user inputs
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -186,6 +187,7 @@ def user_stats(df):
     print('-'*40)
 
 def request_five(df):
+    #this line of code is supposed to return 5 rows of the data frame 
     start_loc = 0
     end_loc = 5
     while input('would you like to see five rows of data?, type yes or no').lower().strip() == 'yes':
@@ -197,6 +199,8 @@ def request_five(df):
      
         
 def main():
+
+    #this function calls every other function and dictates the sequence of the program
     while True:
         city, month, day = get_filters()
         if city in CITY_DATA and month in month_list and day in day_list:
