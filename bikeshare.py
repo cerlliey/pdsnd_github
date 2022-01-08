@@ -198,6 +198,8 @@ def request_five(df):
      
         
 def main():
+
+    #this function calls every other function and dictates the sequence of the program
     while True:
         city, month, day = get_filters()
         if city in CITY_DATA and month in month_list and day in day_list:
